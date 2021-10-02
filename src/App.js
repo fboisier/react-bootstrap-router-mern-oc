@@ -22,7 +22,8 @@ const App = () => {
 
           <Switch>
             <Route path="/home">
-              <Home />
+              <Home algo={true}/>
+              <Home algo={false}/>
             </Route>
             <Route path="/contacto">
               <Contact />
